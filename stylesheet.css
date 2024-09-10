@@ -1,8 +1,12 @@
+* {
+    text-align: center;
+}
 body {
     background-color: rgb(87, 104, 87);
     font-size: larger;
 }
 h1 {
+    text-shadow: 2px 2px green;
     font-size: xx-large;
     background-color: rgb(151, 197, 147);
 }
@@ -12,4 +16,19 @@ h2 {
 
 .body {
     white-space: pre-wrap;
+}
+
+#headerimg {
+    width: 150px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    border: 2px solid white;
+}
+
+#Intro {
+    text-align: left;
+    white-space: 20px;
+    position: static;
+    left: 20px;
 }
